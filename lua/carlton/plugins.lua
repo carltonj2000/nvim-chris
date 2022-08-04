@@ -46,6 +46,13 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "lunarvim/colorschemes" -- A bunch of colorschemes
   use "folke/tokyonight.nvim" -- vscode like colorschemes
+  use "hrsh7th/nvim-cmp" -- a completion plugin
+  use "hrsh7th/cmp-buffer" -- buffer completion
+  use "hrsh7th/cmp-path" -- path completion
+  use "hrsh7th/cmp-cmdline" -- ... completion
+  use "saadparwaiz1/cmp_luasnip" -- snippet completion
+  use "L3MON4D3/LuaSnip" -- snippet engine
+  use "rafamadriz/friendly-snippets" -- snippet completion multiple languages
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
