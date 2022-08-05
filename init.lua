@@ -1,7 +1,7 @@
-require "carlton.options"
-require "carlton.keymaps"
-require "carlton.plugins"
-require "carlton.colorscheme"
-require "carlton.cmp"
-
-
+require "user.options"
+require "user.keymaps"
+require "user.plugins"
+require "user.colorscheme"
+require "user.cmp"
+require "user.lsp"
+ 
