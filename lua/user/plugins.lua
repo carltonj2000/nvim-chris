@@ -68,6 +68,7 @@ return packer.startup(function(use)
   use "rafamadriz/friendly-snippets" -- snippet completion multiple languages
   use "neovim/nvim-lspconfig" -- enable lsp
   use "williamboman/nvim-lsp-installer" -- simple LSP installer
+  use "jose-elias-alvarez/null-ls.nvim" -- for formaters and linters 
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
   use {
