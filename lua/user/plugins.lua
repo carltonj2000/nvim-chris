@@ -54,6 +54,8 @@ return packer.startup(function(use)
     -- tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
   use "folke/tokyonight.nvim" -- vscode like colorschemes
   use "hrsh7th/nvim-cmp" -- a completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completion
